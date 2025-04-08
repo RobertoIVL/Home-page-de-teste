@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    async: 0.5s;
+    background-image: url(https://img.freepik.com/fotos-gratis/bela-paisagem-de-montanhas_23-2151151082.jpg?t=st=1743725243~exp=1743728843~hmac=85ea697459f24b326f8d91aee9aa546271e4b70e607924d977e854abd405d0d6&w=1380);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.texto-principal {
+    font-size: 40px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: 3px 1px 4px #ffffff;
+}
+.caixa-de-pesquisa {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #0000007c;
+    display: inline-block;
+    justify-content: center;
+}
