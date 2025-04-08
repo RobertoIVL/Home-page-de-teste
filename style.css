@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +7,34 @@
 }
 
 body {
-    async: 0.5s;
-    background-image: url(https://img.freepik.com/fotos-gratis/bela-paisagem-de-montanhas_23-2151151082.jpg?t=st=1743725243~exp=1743728843~hmac=85ea697459f24b326f8d91aee9aa546271e4b70e607924d977e854abd405d0d6&w=1380);
+    background-image: url('Background.jpg');
     background-size: cover;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    background-color: #0000007c;
+    color: #ffffff;
+    font-size: 16px;
+}
+button {
+    background-color: #0000007c;
+    color: #ffffff;
+    background-color: #0000007c;
+    padding: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
 .texto-principal {
     font-size: 40px;
     color: #000000;
@@ -23,11 +46,28 @@ body {
     text-shadow: 3px 1px 4px #ffffff;
 }
 .caixa-de-pesquisa {
-    max-width: 600px;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
     border-radius: 15px;
     background-color: #0000007c;
     display: inline-block;
     justify-content: center;
+}
+.iconessociais {
+    display: flex;
+    justify-content: center;
+    position: relative
+}
+.iconessociais img {
+    Display:inline-block;
+    flex: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: auto;
+    position: relative;
+}
+.iconessociais li {
+    list-style: none;
+    margin: 0 10px;
 }
